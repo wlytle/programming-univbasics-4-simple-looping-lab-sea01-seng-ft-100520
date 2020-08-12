@@ -26,4 +26,5 @@ def return_string_array(array)
     binding.pry
     new_array.push(i.to_s)
   end
+  return new_array
 end
