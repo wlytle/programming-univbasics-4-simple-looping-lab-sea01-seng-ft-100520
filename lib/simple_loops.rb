@@ -19,7 +19,7 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  new array = []
+  new_array = []
   for i in array
     array.push(i.to_s)
   end
