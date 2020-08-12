@@ -1,3 +1,5 @@
+require 'pry'
+
 def loop_message_five_times(message)
   5.times do
     puts message
@@ -21,6 +23,7 @@ end
 def return_string_array(array)
   new_array = []
   for i in array
+    binding.pry
     new_array.push(i.to_s)
   end
 end
