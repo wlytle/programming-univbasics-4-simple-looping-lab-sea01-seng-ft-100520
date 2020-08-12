@@ -21,6 +21,6 @@ end
 def return_string_array(array)
   new_array = []
   for i in array
-    array.push(i.to_s)
+    new_array.push(i.to_s)
   end
 end
